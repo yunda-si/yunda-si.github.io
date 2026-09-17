@@ -38,24 +38,23 @@
     "layout/json_cv"
 ;
 
-/* Site title above sidebar, navigation centered */
+/* Yunda Si above sidebar, navigation centered */
 @media (min-width: 768px) {
+  .masthead__inner-wrap {
+    position: relative;
+  }
 
-  .masthead__inner-wrap,
   .greedy-nav {
     position: relative;
   }
 
-  /* Center Research / Blog / CV */
+  /* Keep Research / Blog / CV visible and centered */
   .greedy-nav .visible-links {
-    width: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  /* Put "Yunda Si" above the avatar/sidebar */
+  /* Put Yunda Si above the avatar/sidebar */
   .greedy-nav .masthead__menu-item--lg {
     position: absolute;
     left: 0;
