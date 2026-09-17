@@ -37,3 +37,24 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* Keep site title on the left, center navigation menu */
+@media (min-width: 768px) {
+  .masthead__inner-wrap {
+    position: relative;
+  }
+
+  .greedy-nav {
+    position: relative;
+  }
+
+  .greedy-nav .site-title {
+    position: absolute;
+    left: 0;
+  }
+
+  .greedy-nav .visible-links {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
